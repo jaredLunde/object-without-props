@@ -1,3 +1,7 @@
+# objectWithoutProps + objectWithProps
+A package for SHALLOW removing of properties from an object or selecting properties from an object and creating a new object out of the result.
+
+## Installation
 `yarn add object-without-props` or `npm add object-without-props`
 
 
