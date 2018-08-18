@@ -2,8 +2,7 @@
   "env": {
     "commonjs": {
       "presets": [
-        "@babel/env",
-        "@babel/stage-0"
+        ["@babel/env", {"loose": true}],
       ],
       "plugins": [
         "@babel/transform-runtime",
@@ -12,8 +11,7 @@
     },
     "es": {
       "presets": [
-        ["@babel/env", {"modules": false}],
-        "@babel/stage-0"
+        ["@babel/env", {"loose": true, "modules": false}]
       ],
       "plugins": [
         "closure-elimination"
